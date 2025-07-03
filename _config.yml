@@ -32,6 +32,7 @@ github_username:  Ant-28
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll/footnotes
 markdown: kramdown
 # Exclude from processing.
 # The following items will not be processed, by default.
