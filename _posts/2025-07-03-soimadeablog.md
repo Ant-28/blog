@@ -13,7 +13,7 @@ I'm hoping to start each entry with "So I..." and some action I took, or some *t
 ## So why write this? 
 Since [!!Con 2024](https://www.bangbangcon.com/), I stumbled upon quite a few blogs from some truly amazing speakers. I've had this idea gnawing at me in the back of my head: "You must make a blog and write down all of your stories, adventures, et cetera". Now that I'm finally done with my undergraduate degree, I have the time to write to my heart's content.
 
-Most of this post will be about setting up the blog itself, and the annoying lengths I had to go through to set up Jekyll on Windows[^1]. Note that this preceded the release of Ruby 3.4.4, by exactly 2 days. Had I waited 2 days, I would probably have not gone through this ordeal.
+Most of this post will be about setting up the blog itself, and the annoying lengths I had to go through to set up Jekyll on Windows{% fn %}. Note that this preceded the release of Ruby 3.4.4, by exactly 2 days. Had I waited 2 days, I would probably have not gone through this ordeal.
 
 ## Why Jekyll?
 At least 3 of my professors have used it throughout undergrad. I would've used Astro, but I've procrastinated this for long enough and need to get started *somehow*.
@@ -26,7 +26,7 @@ Jekyll has a good guide for setting things up, even for Windows. At this point, 
 <li> WSL </li>
 </ol>
 
-While I won't go into the pros/cons of either, I quite like MSYS because it doesn't mean spinning up a VM[^2] to get things done. To be honest, my objective is to stay "closer" to a Windows environment, and WSL seems like a cop-out to that end.  
+While I won't go into the pros/cons of either, I quite like MSYS because it doesn't mean spinning up a VM{% fn %} to get things done. To be honest, my objective is to stay "closer" to a Windows environment, and WSL seems like a cop-out to that end.  
 
 Follow the [Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/) tutorial. If you have MSYS beforehand, pull up a terminal of your choice that *isn't* MSYS (e.g. `cmd.exe` and `pwsh`) and run `ridk enable`.
 
@@ -80,6 +80,12 @@ This is hopefully the start of a long journey, where I pen down all of my scatte
 Also, if you find any errors here, let me know! I don't know a lot more than I do know, so I'd appeciate any corrections.
 
 # Footnotes
-[^1]: Before someone messages me to proselytize Linux: Yes, I do use Linux. The point wasn't whether I should, but whether I could.
 
-[^2]: I'm assuming that you don't use WSL1. 
+{% footnotes %}
+   {% fnbody %}
+      Before someone messages me to proselytize Linux: Yes, I do use Linux. The point wasn't whether I should, but whether I could.
+   {% endfnbody %}
+   {% fnbody %}
+      I'm assuming that you don't use WSL1. 
+   {% endfnbody %}
+{% endfootnotes %}
