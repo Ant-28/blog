@@ -80,6 +80,6 @@ This is hopefully the start of a long journey, where I pen down all of my scatte
 Also, if you find any errors here, let me know! I don't know a lot more than I do know, so I'd appeciate any corrections.
 
 # Footnotes
-[^1] : Before someone messages me to proselytize Linux: Yes, I do use Linux. The point wasn't whether I should, but whether I could.
+[^1]: Before someone messages me to proselytize Linux: Yes, I do use Linux. The point wasn't whether I should, but whether I could.
 
-[^2] : I'm assuming that you don't use WSL1. 
+[^2]: I'm assuming that you don't use WSL1. 
