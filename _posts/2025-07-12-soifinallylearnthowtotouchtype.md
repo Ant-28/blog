@@ -132,7 +132,7 @@ I'm not annoyed by the exercise but bad exposition is my pet peeve. Is this from
 
 
 Home stretch. In over 8 years I've never gotten this far.
-![last lessons]({{site.baseurl}} /assets/images/typingposts/tm4.png)
+![last lessons]({{site.baseurl}}/assets/images/typingposts/tm4.png)
 
 # August 18th, 2025
 It is exactly 1 AM. Continuting off of the high of finishing the previous exercise, I decided to sprint trough Z and X. 
