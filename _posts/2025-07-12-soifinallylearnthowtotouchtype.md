@@ -4,7 +4,6 @@ title:  "So I Finally Learnt How to Touch Type!"
 date:   2025-09-26 23:51:40 +0200
 categories: jekyll update
 ---
-# So I finally learnt how to touch type
 
 *Note (9/26/25): My original plan was to post this weeks ago. I forgot about this post but better late than never.*
 
