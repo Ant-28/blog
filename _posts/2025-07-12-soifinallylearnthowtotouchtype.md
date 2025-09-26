@@ -128,7 +128,7 @@ This sentence drill is deeply frustrating.
 What I'm beginning to realize is that after learning the letter B, it's messing with my muscle memory for V (It took me 4 tries to write that.) Having not only realized this, but also having written it down, maybe I'll be more mindful of it.
 
 I'm not annoyed by the exercise but bad exposition is my pet peeve. Is this from a children's book?
-![Bad narrative]({{site.baseurl}} /assets/images/typingposts/tm2.png)
+![Bad narrative]({{site.baseurl}}/assets/images/typingposts/tm2.png)
 
 
 Home stretch. In over 8 years I've never gotten this far.
@@ -138,7 +138,7 @@ Home stretch. In over 8 years I've never gotten this far.
 It is exactly 1 AM. Continuting off of the high of finishing the previous exercise, I decided to sprint trough Z and X. 
 
 If only they knew.
-![Zaza]({{site.baseurl}} /assets/images/typingposts/tm3.png)
+![Zaza]({{site.baseurl}}/assets/images/typingposts/tm3.png)
 
 I'm finally done. Am I touch typing as I write this? Yes, but not well. I still need a lot of practice. But I'm apparently done with this course.
 
