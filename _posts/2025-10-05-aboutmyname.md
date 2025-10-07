@@ -131,7 +131,7 @@ I'd like to thank my good friends and editors [Sameer Dash](https://github.com/s
 Technically, that's a /ʌ/ (wedge) but if I'm being totally honest the difference isn't as audible if you're trying to pronounce my name. From what I understand, wedges are "full" or stressed vowels, but there isn't really any stress in my name. You could stress the "nan" in "Ananth" and it'd be fine, I guess. I don't discern the difference. 
 
 
-To know more about the schwa/wedge split, read <a href=https://wstyler.ucsd.edu/posts/difference_schwa_wedge.html>this</a>.
+To know more about the schwa/wedge split, read <a href="https://wstyler.ucsd.edu/posts/difference_schwa_wedge.html">this</a>.
 
    {% endfnbody %}
 {% fnbody %}
