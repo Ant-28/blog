@@ -114,7 +114,7 @@ I'd like to thank my good friends and editors [Sameer Dash](https://github.com/s
    {% endfnbody %}
 
    {% fnbody %}
-      you might have noticed that it's part of a larger word. I recommend looking at [Sandhi rules](https://en.wikipedia.org/w/index.php?title=Sandhi&oldid=1308603068) if you would like to know why.
+      you might have noticed that it's part of a larger word. I recommend looking at <a href="https://en.wikipedia.org/w/index.php?title=Sandhi&oldid=1308603068">Sandhi rules</a> if you would like to know why.
    {% endfnbody %}
 
    {% fnbody %}
@@ -123,14 +123,15 @@ I'd like to thank my good friends and editors [Sameer Dash](https://github.com/s
    {% fnbody %}
     I don't know the IPA particularly well, but once you've read the whole /ə/ vs /ʌ/ thing, I think I'd transcribe her name as follows:
     - kəməlaː for the Tamil pronunciation
-    - ˈkɑːmələ, if [Wikipedia](https://en.wikipedia.org/w/index.php?title=Kamala_Harris&oldid=1314893836) is to be believed on IPA transcriptions.
+    - ˈkɑːmələ, if <a href="
+    https://en.wikipedia.org/w/index.php?title=Kamala_Harris&oldid=1314893836">Wikipedia</a> is to be believed on IPA transcriptions.
    {% endfnbody %}
    {% fnbody %}
 
 Technically, that's a /ʌ/ (wedge) but if I'm being totally honest the difference isn't as audible if you're trying to pronounce my name. From what I understand, wedges are "full" or stressed vowels, but there isn't really any stress in my name. You could stress the "nan" in "Ananth" and it'd be fine, I guess. I don't discern the difference. 
 
 
-To know more about the schwa/wedge split, read [this](https://wstyler.ucsd.edu/posts/difference_schwa_wedge.html).
+To know more about the schwa/wedge split, read <a href=https://wstyler.ucsd.edu/posts/difference_schwa_wedge.html>this</a>.
 
    {% endfnbody %}
 {% fnbody %}

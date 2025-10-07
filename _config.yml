@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Valmīka (anthill)
-email: ants at ucsc.edu
+title: Valmīka (anthill)  
+email: ants@ucsc.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Blog made using Jekyll, until I learn how Astro works, I guess.
 domain: Ant-28.github.io
@@ -34,6 +34,8 @@ plugins:
   - jekyll-feed
   - jekyll/footnotes
 markdown: kramdown
+sass:
+    sass_dir: _sass
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
