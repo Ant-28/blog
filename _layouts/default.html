@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    
+ 
+    <!-- <script src="/assets/js/csvParser.js" type="module" defer></script> -->
+    <script src="{{site.baseurl}}/assets/js/components.js" type="module" defer> </script>
+    <script src="{{site.baseurl}}//assets/js/layout.js" type="module" defer> </script>
+    <!-- https://www.filamentgroup.com/lab/load-css-simpler/ maybe? -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css" media="print" onload="this.media='all'">
+
+  </head>
+  <body>
+    
+    
+    <div class="content-faq">
+      {{ content }}
+    </div>
+  
+  </body>
+</html> 

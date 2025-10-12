@@ -1,0 +1,105 @@
+@import "highlights.css";
+@font-face {
+    font-family: league-spartan;
+    src: url(./fonts/woffs/LeagueSpartan-Bold.woff);
+}
+/* copied from the website */
+html {
+    position: absolute;
+    height: 100;
+    width: 95vw;
+    max-width: 95vw;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+body {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: 100vh;
+    max-width: 95vw;
+    height: 100vh;
+    background-color: #dcdcdc;
+    font-family: league-spartan; /* find a suitable free alternative to Futura */
+    
+}
+
+.pifheaderleft, .pifheaderright {
+    writing-mode: vertical-rl;
+    display: flex;
+    position: sticky;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0px;
+    height: 100vh;
+    font-size: 1.25em;
+}
+
+body br {
+    display: block;
+}
+body img {
+    display: flex;
+    justify-content: center;
+    margin: auto;   
+    max-width: 80%;    
+}
+
+body div.content-faq {
+    min-height: 100vh;
+    position: relative;
+    font-size: 20px;
+}
+.pifheaderleft a, .pifheaderright a {
+    text-decoration: none;
+}
+.pifheaderleft {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.pifheaderright {
+    writing-mode: vertical-lr;
+    transform: rotate(0deg);
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+pre {
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+    background-color: #282828;
+    color: white;
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+code, code span {
+    max-width: 100%;
+    overflow-x: scroll;
+    overflow-wrap: break-word;
+}
