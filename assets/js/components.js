@@ -38,6 +38,7 @@ export function headerElem(parentNode, uri, textContent){
     let newanchor = appendNewElement(parentNode, "a");
     newanchor.setAttribute("href", uri);
     newanchor.textContent = textContent;
+    newanchor.setAttribute("title", textContent);
     return newanchor;
 }
 
@@ -45,7 +46,10 @@ export function headerElem(parentNode, uri, textContent){
 export function resizeObserver(elementNode){
     // when the window resizes and the text overflows
     // the main overflowing content is the body
-
+    // evil hack for content 
+    if(elementNode == null){
+        elementNode = document.querySelector("div.content-faq");
+    }
     let bodyNode = document.querySelector("body");
     // make the body as big as the element node
     bodyNode.style.height = `${elementNode.scrollHeight}px`; 

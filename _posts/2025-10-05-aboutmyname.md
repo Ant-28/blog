@@ -17,7 +17,7 @@ The tl;dr for people who aren't really bothered:
 
 - Don't ever call me by my last name. That's my Dad. 
 
-# So I Need To Talk About My Name
+# Names
 
 Over the past 4+ years, I've been asked the following questions quite a few times:
 
