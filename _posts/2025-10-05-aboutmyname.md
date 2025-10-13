@@ -39,7 +39,7 @@ If you can read IPA, that's
 ənəntədʒɪt sɾiːkaːnt
 {: style="color:black; font-size: 120%; text-align: center; font-weight: 500;"}
 
-If you check the IPA chart for Sanskrit or Tamil, you'll realize that that's probably not 100% accurate. Then again, was IPA designed with Indian languages in mind? {% fn %}  That being said, these are the sounds that best matched [ipachart.com](ipachart.com).
+If you check the IPA chart for Sanskrit or Tamil, you'll realize that that's probably not 100% accurate. Then again, was IPA designed with Indian languages in mind? {% fn %}  That being said, these are the sounds that best matched [ipachart.com](https://www.ipachart.com).
 
 One might argue that the last name doesn't match how some states would pronounce it (i.e. ʃɾiː). I'm not sure why this is the case. That being said, it sounds different enough that I'm particular about pronouncing it as specified by the person whose name contains the "Sri/Shri". Growing up, it's always been the former so I assume that I have no reason to change that.  
 
