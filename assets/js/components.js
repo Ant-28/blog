@@ -37,6 +37,7 @@ export function headerElem(parentNode, uri, textContent){
     // we want an a element
     let newanchor = appendNewElement(parentNode, "a");
     newanchor.setAttribute("href", uri);
+    newanchor.setAttribute("class", "pifheaderelem")
     newanchor.textContent = textContent;
     newanchor.setAttribute("title", textContent);
     return newanchor;
@@ -47,10 +48,27 @@ export function resizeObserver(elementNode){
     // when the window resizes and the text overflows
     // the main overflowing content is the body
     // evil hack for content 
-    if(elementNode == null){
-        elementNode = document.querySelector("div.content-faq");
+    if(window.matchMedia(`screen and (min-width: 1000px)`).matches){
+        console.log("match");
+        if(elementNode == null){
+            elementNode = document.querySelector("div.content-faq");
+        }
+        let bodyNode = document.querySelector("body");
+        // make the body as big as the element node
+        bodyNode.style.height = `${elementNode.scrollHeight}px`; 
+        // document.querySelector("div.content-faq").style.height = `${elementNode.scrollHeight}px`; 
+        return;
     }
-    let bodyNode = document.querySelector("body");
-    // make the body as big as the element node
-    bodyNode.style.height = `${elementNode.scrollHeight}px`; 
+    if(window.matchMedia(`screen and (max-width: 1000px)`).matches){
+    
+        if(elementNode == null){
+            elementNode = document.querySelector("div.content-faq");
+        }
+        let bodyNode = document.querySelector("body");
+        let header1  = document.querySelector("header.pifheaderleft");
+        // let header2  = document.querySelector("header.pifheaderright");
+        // make the body as big as the element node
+        document.querySelector("div.content-faq").style.height = `${elementNode.scrollHeight + header1.scrollHeight * 2.5 }px`; 
+        bodyNode.style.height = `${elementNode.scrollHeight + header1.scrollHeight * 2.5 }px`; 
+    }
 }
