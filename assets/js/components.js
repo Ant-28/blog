@@ -4,8 +4,6 @@ const appendNewElement = (parent, childName) =>
 
 // return nothing, this just modifies document state
 // direction: left or right
-// I could keep this symlinked to my website repo but that sounds like a horrible idea
-
 export function createHeader(direction){
     let bodyNode = document.querySelector("body");
     if(direction !== "left" && direction !== "right") {return;}
@@ -19,11 +17,11 @@ export function createHeader(direction){
         pifHeader = bodyNode.insertBefore(document.createElement("header"), bodyNode.children[0])
     }
     pifHeader.setAttribute("class", "pifheader" + direction)
-    headerElem(pifHeader, "https://ant-28.github.io/index.html", "[: Home :]")
-    headerElem(pifHeader, "https://ant-28.github.io/about.html", "[: About :]")
+    headerElem(pifHeader, "index.html", "[: Home :]")
+    headerElem(pifHeader, "about.html", "[: About :]")
     headerElem(pifHeader, "https://ant-28.github.io/blog", "[: Blog :]")
-    headerElem(pifHeader, "https://ant-28.github.io/faq.html", "[: FAQ :]")
-    headerElem(pifHeader, "https://ant-28.github.io/contact.html", "[: Contact :]")
+    headerElem(pifHeader, "faq.html", "[: FAQ :]")
+    headerElem(pifHeader, "contact.html", "[: Contact :]")
     
 }
 
@@ -43,6 +41,8 @@ export function headerElem(parentNode, uri, textContent){
     return newanchor;
 }
 
+
+// const shorterSideofElement = (elementNode) => (Math.min(elementNode.scrollHeight, elementNode.scrollWidth))
 
 export function resizeObserver(elementNode){
     // when the window resizes and the text overflows
@@ -66,9 +66,10 @@ export function resizeObserver(elementNode){
         }
         let bodyNode = document.querySelector("body");
         let header1  = document.querySelector("header.pifheaderleft");
-        // let header2  = document.querySelector("header.pifheaderright");
+        let header2  = document.querySelector("header.pifheaderright");
         // make the body as big as the element node
-        document.querySelector("div.content-faq").style.height = `${elementNode.scrollHeight + header1.scrollHeight * 2.5 }px`; 
-        bodyNode.style.height = `${elementNode.scrollHeight + header1.scrollHeight * 2.5 }px`; 
+        
+        bodyNode.style.height = `${elementNode.scrollHeight + header1.scrollHeight + header2.scrollHeight }px`; 
+        document.querySelector("div.content-faq").style.height = `${bodyNode.style.height}px`; 
     }
 }
