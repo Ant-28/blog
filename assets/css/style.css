@@ -1,3 +1,4 @@
+@import "highlights.css";
 @font-face {
     font-family: league-spartan;
     src: url(./fonts/woffs/LeagueSpartan-Bold.woff);
@@ -20,7 +21,7 @@ html {
         display: block;
         /* grid-template-columns: 100vw; */
         /* grid-template-rows: 100vh; */
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         /* overflow-x: hidden; */
         
@@ -43,7 +44,7 @@ html {
     }
     body div.content-faq {      
         min-height: 0.8em;
-        min-width: 95vw;
+      
         /* padding: 10px;
         padding-left: 40px; */
         padding-left: 2.5%;
@@ -82,12 +83,12 @@ html {
         
         height: 100vh;
         width: 100vw;
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: 100vh;
+        display: block;
+        /* grid-template-columns: 100vw;
+        grid-template-rows: 100vh; */
         justify-content: center;
         align-items: center;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         
     }
     body div.content-faq {
@@ -161,4 +162,25 @@ a:visited {
 
 a:hover{
     text-decoration: underline;
+}
+
+pre {
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+    background-color: #282828;
+    color: white;
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+
+code, code span {
+    max-width: 100%;
+    overflow-x: scroll;
+    overflow-wrap: break-word;
 }

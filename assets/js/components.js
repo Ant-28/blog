@@ -54,9 +54,10 @@ export function resizeObserver(elementNode){
             elementNode = document.querySelector("div.content-faq");
         }
         let bodyNode = document.querySelector("body");
+        let contentFaqNode = document.querySelector("div.content-faq");
         // make the body as big as the element node
         bodyNode.style.height = `${elementNode.scrollHeight}px`; 
-        // document.querySelector("div.content-faq").style.height = `${elementNode.scrollHeight}px`; 
+        contentFaqNode.style.height = `${elementNode.scrollHeight}px`; 
         return;
     }
     if(window.matchMedia(`screen and (max-width: 1000px)`).matches){
