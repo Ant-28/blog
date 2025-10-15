@@ -138,6 +138,8 @@ Home stretch. In over 8 years I've never gotten this far.
 It is exactly 1 AM. Continuting off of the high of finishing the previous exercise, I decided to sprint trough Z and X. 
 
 If only they knew.
+
+
 ![Zaza]({{site.baseurl}}/assets/images/typingposts/tm3.png)
 
 I'm finally done. Am I touch typing as I write this? Yes, but not well. I still need a lot of practice. But I'm apparently done with this course.
