@@ -6,15 +6,10 @@ createHeaderLeft();
 // I don't like this but I need one resize on page load
 // check which media query is being used in resizeObserver
 createHeaderRight();
-let contentNode = document.querySelector("article.post.h-entry");
+let contentNode = document.querySelector("article");
 resizeObserver(contentNode);
-addEventListener("resize", (event) => {
-    
-        resizeObserver(contentNode);    
-    
-}); 
-addEventListener("load", (event) => {
-    
-        resizeObserver(contentNode);    
-    
-});
+addEventListener("resize",           (event) => { resizeObserver(contentNode); }); 
+addEventListener("load",             (event) => { resizeObserver(contentNode); });
+addEventListener("DOMContentLoaded", (event) => { resizeObserver(contentNode); });
+
+

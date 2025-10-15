@@ -49,15 +49,19 @@ export function resizeObserver(elementNode){
     // the main overflowing content is the body
     // evil hack for content 
     if(window.matchMedia(`screen and (min-width: 1000px)`).matches){
-        console.log("match");
+        
         if(elementNode == null){
             elementNode = document.querySelector("div.content-faq");
         }
         let bodyNode = document.querySelector("body");
         let contentFaqNode = document.querySelector("div.content-faq");
+        contentFaqNode.removeAttribute("style");
         // make the body as big as the element node
         bodyNode.style.height = `${elementNode.scrollHeight}px`; 
-        contentFaqNode.style.height = `${elementNode.scrollHeight}px`; 
+        contentFaqNode.style.height = `${bodyNode.clientHeight}px`; 
+
+        // document.querySelector("div.content-faq").style.width = `${bodyNode.clientWidth}px`;
+        
         return;
     }
     if(window.matchMedia(`screen and (max-width: 1000px)`).matches){
@@ -66,11 +70,11 @@ export function resizeObserver(elementNode){
             elementNode = document.querySelector("div.content-faq");
         }
         let bodyNode = document.querySelector("body");
-        let header1  = document.querySelector("header.pifheaderleft");
-        let header2  = document.querySelector("header.pifheaderright");
+        // let header1  = document.querySelector("header.pifheaderleft");
+        // let header2  = document.querySelector("header.pifheaderright");
         // make the body as big as the element node
-        
-        bodyNode.style.height = `${elementNode.scrollHeight + header1.scrollHeight + header2.scrollHeight }px`; 
-        document.querySelector("div.content-faq").style.height = `${bodyNode.style.height}px`; 
-    }
+        let contentFaqNode = document.querySelector("div.content-faq");
+        // ensure content isn't too wide
+        contentFaqNode.style.width = `${bodyNode.clientWidth}px`;
+    }       
 }
