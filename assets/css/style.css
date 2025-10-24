@@ -1,7 +1,8 @@
 @import "highlights.css";
 @font-face {
     font-family: league-spartan;
-    src: url(./fonts/woffs/LeagueSpartan-Bold.woff);
+    src: url(./fonts/woffs/LeagueSpartan-VariableFont_wght.woff);
+    font-weight: 450;
 }
 
 html {
@@ -10,7 +11,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    }
+}
 
 /* phones */
 @media screen and (max-width: 1000px){
