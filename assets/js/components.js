@@ -17,11 +17,11 @@ export function createHeader(direction){
         pifHeader = bodyNode.insertBefore(document.createElement("header"), bodyNode.children[0])
     }
     pifHeader.setAttribute("class", "pifheader" + direction)
-    headerElem(pifHeader, "index.html", "[: Home :]")
-    headerElem(pifHeader, "about.html", "[: About :]")
+    headerElem(pifHeader, "https://ant-28.github.io/index.html", "[: Home :]")
+    headerElem(pifHeader, "https://ant-28.github.io/about.html", "[: About :]")
     headerElem(pifHeader, "https://ant-28.github.io/blog", "[: Blog :]")
-    headerElem(pifHeader, "faq.html", "[: FAQ :]")
-    headerElem(pifHeader, "contact.html", "[: Contact :]")
+    headerElem(pifHeader, "https://ant-28.github.io/faq.html", "[: FAQ :]")
+    headerElem(pifHeader, "https://ant-28.github.io/contact.html", "[: Contact :]")
     
 }
 
